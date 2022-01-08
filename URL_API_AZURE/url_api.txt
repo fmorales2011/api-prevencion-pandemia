@@ -1,0 +1,9 @@
+curl --location --request POST 'https://exam2fmp.azurewebsites.net/persons' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+      "name": "Julia",
+      "lastName": "Perez",
+      "dni": "12345678905"
+}'
+
+curl --location --request GET 'https://exam2fmp.azurewebsites.net/persons'
